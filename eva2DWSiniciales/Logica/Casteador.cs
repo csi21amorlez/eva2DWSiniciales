@@ -36,7 +36,7 @@ namespace eva2DWSiniciales.Logica
             dao.CodAlumno = dto.CodAlumno;
             dao.NotaEvaluacion = dto.NotaEvaluacion;
 
-            Console.WriteLine("[INFO] -- Saliendo en Converters.Casteador.DTOtoDAO");
+            Console.WriteLine("[INFO] -- Saliendo de Converters.Casteador.DTOtoDAO");
             return dao;
         }
 
@@ -61,7 +61,7 @@ namespace eva2DWSiniciales.Logica
                 dto.DescEvaluacion = "Tercera Evaluacion";
             dto.NotaEvaluacion = dao.NotaEvaluacion;
 
-            Console.WriteLine("[INFO] -- Saliendo en Converters.Casteador.DAOtoDTO");
+            Console.WriteLine("[INFO] -- Saliendo de Converters.Casteador.DAOtoDTO");
             return dto;
         }
 
@@ -72,12 +72,12 @@ namespace eva2DWSiniciales.Logica
         public static List<EvaTchNotasEvaluacionDTO> DAOtoDTOList(List<EvaTchNotasEvaluacion> listDao)
         {
             List<EvaTchNotasEvaluacionDTO> listDto = new List<EvaTchNotasEvaluacionDTO>();
-
+            Console.WriteLine("[INFO] -- Entrando en Converters.Casteador.DAOtoDTOList");
             //Leemos la lista de daos 
             foreach (EvaTchNotasEvaluacion dao in listDao)
                 //Usamos el metodo DAOtoDTO para convertir los DAOs obtenidos a DTOs
                 listDto.Add(DAOtoDTO(dao));
-
+            Console.WriteLine("[INFO] -- Saliendo de Converters.Casteador.DAOtoDTOList");
             return listDto;
         }
 

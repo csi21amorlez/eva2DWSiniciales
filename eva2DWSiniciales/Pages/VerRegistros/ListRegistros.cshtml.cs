@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using DAL_eva2DWSiniciales.Models.DAOs;
 using DAL_eva2DWSiniciales.Models.DTOs;
-
+using eva2DWSiniciales.Logica;
 
 namespace eva2DWSiniciales.Pages.VerRegistros
 {
