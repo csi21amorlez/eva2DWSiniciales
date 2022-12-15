@@ -1,0 +1,46 @@
+﻿@page
+@model eva2DWSiniciales.Pages.VerRegistros.ListRegistrosModel
+
+@{
+    ViewData["Title"] = "ListRegistros";
+}
+
+<h1>ListRegistros</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EvaTchNotasEvaluacion[0].CodAlumno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EvaTchNotasEvaluacion[0].NotaEvaluacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EvaTchNotasEvaluacion[0].DescEvaluacion)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.EvaTchNotasEvaluacion)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodAlumno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NotaEvaluacion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DescEvaluacion)
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

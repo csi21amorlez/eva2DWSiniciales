@@ -1,9 +1,14 @@
+using DAL_eva2DWSiniciales.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+//Creamos la conexion con el dbContext de nuestra base de datos db_evaluacion
+builder.Services.AddDbContext<BdEvaluacionContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSQL")));
 
 var app = builder.Build();
 

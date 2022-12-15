@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using DAL_eva2DWSiniciales.Models.DAOs;
 using Microsoft.EntityFrameworkCore;
 
 namespace DAL_eva2DWSiniciales.Models;
