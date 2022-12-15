@@ -59,6 +59,11 @@ public partial class BdEvaluacionContext : DbContext
                 .HasColumnType("character varying")
                 .HasColumnName("md_uuid");
             entity.Property(e => e.NotaEvaluacion).HasColumnName("nota_evaluacion");
+
+            entity.HasOne(d => d.CodEvaluacionNavigation).WithMany(p => p.EvaTchNotasEvaluacions)
+                .HasForeignKey(d => d.CodEvaluacion)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("fk_evaCat_tchNotas");
         });
 
         OnModelCreatingPartial(modelBuilder);
