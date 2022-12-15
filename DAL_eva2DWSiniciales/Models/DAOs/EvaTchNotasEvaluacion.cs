@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace DAL_eva2DWSiniciales.Models.DAOs;
 
+//EvaTchNotasEvaluacion --> DAO de la tabla contenedora de registros de notas de la base de datos
 public partial class EvaTchNotasEvaluacion
 {
     public string MdUuid { get; set; } = null!;

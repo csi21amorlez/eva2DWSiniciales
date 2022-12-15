@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DAL_eva2DWSiniciales.Models;
 
+//BdEvaluacionContext --> DbContext de nuestra base de datos
 public partial class BdEvaluacionContext : DbContext
 {
     public BdEvaluacionContext()

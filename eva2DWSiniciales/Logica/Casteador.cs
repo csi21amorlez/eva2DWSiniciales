@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eva2DWSiniciales
+namespace eva2DWSiniciales.Logica
 {
     //Converter--> Clase que gestionar la conversion de DTO a DAO y viceversa
 
@@ -14,6 +14,9 @@ namespace eva2DWSiniciales
     {
 
         //DTOtoDAO --> Convierte el DTO de Notas Evaluacion en DAO para poder insertarlo en base de datos
+        /*
+         * Recibe un dto EvaTchNotasEvaluacionDTO y devuelve un dao con datos rellenos automaticamente 
+         */
         public static EvaTchNotasEvaluacion DTOtoDAO(EvaTchNotasEvaluacionDTO dto)
         {
             Console.WriteLine("[INFO] -- Entrando en Converters.Casteador.DTOtoDAO");
@@ -38,6 +41,9 @@ namespace eva2DWSiniciales
         }
 
         //DAOtoDTO --> Convierte el DAO con todos los campos en un DTO con los campos que necesitamos para trabajar
+        /*
+         * Recibe un Dao EvaTchNotasEvaluacion y devuelve un DTO listo para mostrar
+        */
         public static EvaTchNotasEvaluacionDTO DAOtoDTO(EvaTchNotasEvaluacion dao)
         {
             Console.WriteLine("[INFO] -- Entrando en Converters.Casteador.DAOtoDTO");
@@ -59,11 +65,17 @@ namespace eva2DWSiniciales
             return dto;
         }
 
+        //DAOtoDTOList --> Convierte una lista de DAOs en una lista de DTOs
+        /*
+         * Recibe una lista List<EvaTchNotasEvaluacion> de DAOs y devuelve una List<EvaTchNotasEvaluacionDTO> de DTOs
+         */
         public static List<EvaTchNotasEvaluacionDTO> DAOtoDTOList(List<EvaTchNotasEvaluacion> listDao)
         {
             List<EvaTchNotasEvaluacionDTO> listDto = new List<EvaTchNotasEvaluacionDTO>();
 
+            //Leemos la lista de daos 
             foreach (EvaTchNotasEvaluacion dao in listDao)
+                //Usamos el metodo DAOtoDTO para convertir los DAOs obtenidos a DTOs
                 listDto.Add(DAOtoDTO(dao));
 
             return listDto;

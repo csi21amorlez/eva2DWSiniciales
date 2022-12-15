@@ -27,6 +27,7 @@ namespace eva2DWSiniciales.Pages.VerRegistros
             
             if (_context.EvaTchNotasEvaluacions != null)
             {
+                //Convertimos los daos obtenidos del contexto a dtos mediante el metodo DAOtoDTOlist
                 EvaTchNotasEvaluacion = Casteador.DAOtoDTOList(await (_context.EvaTchNotasEvaluacions
                 .Include(e => e.CodEvaluacionNavigation).ToListAsync()));
             }

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//EvaTchNotasEvaluacionDTO --> Clase DTO que usaremos para trabajar con los datos que necesitmos de nuestra base de datos
+
 namespace DAL_eva2DWSiniciales.Models.DTOs
 {
 
