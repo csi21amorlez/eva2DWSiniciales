@@ -4,14 +4,14 @@
     "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\eva2DWSiniciales\\eva2DWSiniciales.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\eva2DWSiniciales\\eva2DWSiniciales.csproj": {
+    "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\DAL_eva2DWSiniciales\\DAL_eva2DWSiniciales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\eva2DWSiniciales\\eva2DWSiniciales.csproj",
-        "projectName": "eva2DWSiniciales",
-        "projectPath": "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\eva2DWSiniciales\\eva2DWSiniciales.csproj",
+        "projectUniqueName": "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\DAL_eva2DWSiniciales\\DAL_eva2DWSiniciales.csproj",
+        "projectName": "DAL_eva2DWSiniciales",
+        "projectPath": "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\DAL_eva2DWSiniciales\\DAL_eva2DWSiniciales.csproj",
         "packagesPath": "C:\\Users\\CSI21-Amorlez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\eva2DWSiniciales\\obj\\",
+        "outputPath": "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\DAL_eva2DWSiniciales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CSI21-Amorlez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,109 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\eva2DWSiniciales\\eva2DWSiniciales.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\eva2DWSiniciales\\eva2DWSiniciales.csproj",
+        "projectName": "eva2DWSiniciales",
+        "projectPath": "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\eva2DWSiniciales\\eva2DWSiniciales.csproj",
+        "packagesPath": "C:\\Users\\CSI21-Amorlez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\eva2DWSiniciales\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CSI21-Amorlez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\DAL_eva2DWSiniciales\\DAL_eva2DWSiniciales.csproj": {
+                "projectPath": "C:\\Users\\CSI21-Amorlez\\Documents\\eva2DWSiniciales\\DAL_eva2DWSiniciales\\DAL_eva2DWSiniciales.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
