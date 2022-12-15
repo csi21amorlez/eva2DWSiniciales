@@ -1,0 +1,14 @@
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\bin\Debug\net6.0\DAL_eva2DWSiniciales.deps.json
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\bin\Debug\net6.0\DAL_eva2DWSiniciales.runtimeconfig.json
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\bin\Debug\net6.0\DAL_eva2DWSiniciales.dll
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\bin\Debug\net6.0\DAL_eva2DWSiniciales.pdb
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\obj\Debug\net6.0\DAL_eva2DWSiniciales.csproj.AssemblyReference.cache
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\obj\Debug\net6.0\DAL_eva2DWSiniciales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\obj\Debug\net6.0\DAL_eva2DWSiniciales.AssemblyInfoInputs.cache
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\obj\Debug\net6.0\DAL_eva2DWSiniciales.AssemblyInfo.cs
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\obj\Debug\net6.0\DAL_eva2DWSiniciales.csproj.CoreCompileInputs.cache
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\obj\Debug\net6.0\DAL_eva2DWSiniciales.dll
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\obj\Debug\net6.0\refint\DAL_eva2DWSiniciales.dll
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\obj\Debug\net6.0\DAL_eva2DWSiniciales.pdb
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\obj\Debug\net6.0\DAL_eva2DWSiniciales.genruntimeconfig.cache
+C:\Users\CSI21-Amorlez\Documents\eva2DWSiniciales\DAL_eva2DWSiniciales\obj\Debug\net6.0\ref\DAL_eva2DWSiniciales.dll
